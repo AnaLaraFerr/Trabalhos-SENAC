@@ -1,0 +1,37 @@
+header{
+    text-align: center;
+    background-color: rgb(190, 15, 15);
+    padding:7px;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+nav a{
+    padding:5px;
+}
+
+
+
+main{ 
+    background-color: white;
+    width: 70%;
+    justify-self: center;
+    padding:20px;
+    margin: auto;
+       
+}
+
+main h2{
+    text-align: center;
+}
+
+body{
+    background-color: gray;
+}
+
+footer{
+    text-align: center
+}
