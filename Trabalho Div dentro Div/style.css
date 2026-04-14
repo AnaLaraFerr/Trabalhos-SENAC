@@ -1,0 +1,84 @@
+header{
+    text-align: center;
+    color: #D4C9BE;
+    background-color: black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 10px;
+}
+
+nav{
+    text-align: center;
+    background-color: #F1EFEC;
+    padding: 10px;
+}
+
+nav a{
+    color: #223969;
+}
+
+main{
+    background-color: #286186;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.quadradao1{
+    background-color:#D4C9BE;
+    border-radius: 20px;
+    padding: 30px;
+    width: 70%;
+}
+
+.bloco2{
+    background-color: #D4C9BE;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.titulo{
+    text-align: center;
+    background-color: #0d3158;
+    border-radius: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+.quadrado{
+    background-color: #F1EFEC;
+    width: 22%;
+    border-radius: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quadrado h3{
+    text-align: center;
+    background-color: #0e2742;
+    color: #d4cec9;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 0%;
+    padding: 10px;
+}
+
+.quadrado p{
+    margin-left: 10px;
+}
+
+.cardarea{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
