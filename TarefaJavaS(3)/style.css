@@ -1,0 +1,132 @@
+.titulo{
+    text-align: center;
+    padding:8x;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.navegador{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    margin-left: 60%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.comeco{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(196, 27, 27);
+}
+
+.corpo{
+   display: flex;
+   margin-left: 100px;
+   margin-top: 80px;
+   gap: 15%;
+
+}
+
+.final{
+    background-color: rgb(160, 10, 10);
+    color: rgb(255, 255, 255);
+    display: flex;
+    gap: 500px;
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 7%;
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.patrik{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.texto h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.texto p{
+    font-size: 20px;
+}
+.mainlog{
+    background-color: rgb(255, 195, 195, 0.3);
+    text-align: center;
+    padding: 30px;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top: 70px;
+    border-radius: 40px;
+    border-style: ridge;
+}
+
+.caixa{
+    width: 400px;
+    height: 35px;
+}
+
+input::placeholder {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.avulso{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+}
+
+.botao{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(175, 0, 0);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    
+
+	cursor: pointer;
+
+}
+
+.botao:hover { 
+    border: 2px solid rgba(0, 0, 0,);
+    background-color: rgb(134, 0, 0);
+    transition: 1ms; 
+}
+
+.caixa:hover { 
+    background-color: rgba(241, 202, 202, 0.5);
+    transition: 1ms; 
+}
+
+.imge{
+    border: 15px solid rgb(155, 0, 0);
+}
+
+.tudo{
+    background-color: rgba(247, 247, 247, 0.5);
+}
+
