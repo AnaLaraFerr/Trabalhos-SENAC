@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bode">
+    <header class="cabeca">
+        <h1>Sistema de Cadastro de Produtos</h1>
+    </header>
+    <main class="tudao">
+        <div class="meio">
+            <div class="tudinho">
+                <label for="">Digite o nome:</label>
+                <input class="input" type="text" id="nproduto" placeholder="produto">
+                <label>Digite o preço:</label>
+                <input class="input" type="text" id="pproduto" placeholder="preço">
+            </div>
+
+            <p class="frase" id="mensagem"></p>
+            <div class="botoes">
+                
+                <button onclick="cadastrarProduto()" id="botao">Cadastrar</button>
+                <br> <br>
+                <button onclick="mostrarProdutos()">Mostrar produtos</button>
+            </div>
+        </div>
+            </div>
+
+            <p class="frase" id="mensagem"></p>
+
+
+            <div class="listaa">
+                <h2>Produtos cadastrados</h2>
+                <ul><b>Lista abaixo:</b></ul>
+                <ul id="lista"></ul>
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

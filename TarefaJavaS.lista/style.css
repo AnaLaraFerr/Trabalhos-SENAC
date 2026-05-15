@@ -1,0 +1,73 @@
+ .cabeca{
+    font-family: Arial;
+    background-color: rgb(0, 43, 100);
+    padding: 20px;
+    color: white;
+    text-align: center;
+ }
+
+ .botoes{
+   display: flex;
+   gap: 5px;
+   margin-left: 50px;
+   margin-right: 20px;
+   margin-top: 40px;
+ }
+
+ button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+ .input{
+   width: 300px;
+   height: 20px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ label{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+
+    padding: 20px;
+ }
+
+ .tudinho{
+   flex-direction: column;
+   display: flex;
+   padding-top: 100px;
+ }
+
+.listaa{
+   text-align: center;
+   margin-top: 100px;
+   margin-left: 500px;
+    font-family: 'Franklin Gothic Medium';
+    background-color: white;
+    padding: 90px;
+    border-radius: 50px;
+}
+
+.frase{
+   text-align: center;
+   font-family: sans-serif;   
+}
+
+.bode{
+   background-color: rgb(201, 230, 255, 0.5);
+}
+
+.tudao{
+   display: flex;
+   gap: 1px;
+}
+
+.meio{
+   margin-left: 300px;
+   margin-top: 40px;
+}
