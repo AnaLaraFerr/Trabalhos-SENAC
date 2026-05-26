@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="corpo">
+     <header class="cabeca">
+    <div class="bloco1"></div>
+        <h1> Atividade For e While</h1>
+        <nav class="bloquinho">
+            <a href="index.html">Inicio</a>
+            <a href="estoque.html"> Estoque</a>
+            <a href="caixa.html">Caixa</a>
+            <a href="senha.html">Senha</a>
+            <a href="notas.html">Notas</a>
+            <a href="conferencia.html"> Conferencias</a>
+        </nav>
+    </div>
+    </header>
+
+     <main>
+        <div class="blocao">
+        <div class="imgg">
+            <img src="img\virginia-ze-felipe-1-1.webp" width="1000px">
+        </div>
+        <div class="texto2">
+        <h1>Sistema de Estoque</h1> 
+        <p>Percorre um array de produtos usando estrutura for</p>
+        <h2>Cadastrar produto</h2>
+        <p>Preencha os campos e clique em Adicionar para incluir um produto no estoque.</p>
+
+        <div class="qua">
+            <label for="">NOME DO PRODUTO</label>
+            <input id="Produto" type="text">
+
+            <label for="">QUANTIDADE</label>
+            <input id="Quantidade" type="number">
+
+            <label for="">Preço (R$)</label>
+            <input id="Preço" type="number" placeholder="Ex: 169.90" min="0" step="0.01">
+        </div>
+<br>
+        <div class="areaB">
+            <button onclick="add()" id="add" class="botao1">+ ADICIONAR</button>
+            <button onclick="del()">LIMPAR TUDO</button>
+        </div>
+<br>
+<div class="divisor1">
+        <h2>Produtos no estoque</h2>
+       
+
+        <button onclick="Mostrar()" class="mostrar">Mostrar produtos</button>
+          <ul id="Local">
+            
+          </ul>
+</div>
+          </div>
+    </div>
+  </main>
+
+    <footer class="final">
+        <p> Ana Lara Ferreira - Programador Web</p>
+    </footer>
+
+
+
+      <script src="script.js"></script>
+</body>
+</html>
