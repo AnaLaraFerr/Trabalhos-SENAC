@@ -1,0 +1,12 @@
+INSERT INTO matriculas (id_aluno, id_curso, data_matricula, status_matricula) VALUES
+    (1, 1, '2026-06-01', 'Ativa'),
+    (2, 2, '2026-06-01', 'Ativa'),
+    (3, 1, '2026-06-02', 'Ativa'),
+    (4, 3, '2026-06-02', 'Concluída'),
+    (5, 4, '2026-06-03', 'Trancada'),
+    (6, 1, '2025-03-24', 'Concluida'),
+    (7, 4, '2026-05-18', 'Trancada'),
+    (8, 3, '2026-04-11', 'Ativa'),
+    (8, 6, '2026-08-14', 'Trancada'),
+    (9, 8, '2026-02-16', 'Ativa'),
+    (10, 4, '2026-05-27', 'Concluida');
