@@ -1,0 +1,6 @@
+Lasanha;25 reais;lasanha.jpg
+Hamburger; 27 reais;hamburger.jpg
+Acai; 20 reais;acai.jpg
+Sorvete;27;sorvete.jpg
+Feijoada;94;feijoada.webp
+Bolo;36;bolo.jpg
